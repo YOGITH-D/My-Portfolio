@@ -51,3 +51,25 @@ Clone the repository:
 ```bash
 git clone https://github.com/YOGITH-D/my_portfolio.git
 cd my_portfolio
+
+```
+
+Install dependencies:
+```bash
+npm install
+```
+
+Run the project locally:
+```bash
+npm run dev
+```
+
+Build for production:
+```bash
+npm run build
+```
+
+Preview production build:
+```bash
+npm run preview
+```
