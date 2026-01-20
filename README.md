@@ -1,16 +1,53 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website built using **React**, **Vite**, and **Tailwind CSS**.  
+This website showcases my projects, skills, and resume, and serves as a central place to learn more about me and my work.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- Smooth scrolling navigation
+- Projects showcase with GitHub links
+- Resume page with embedded PDF viewer
+- Downloadable CV
+- Optimized production build using Vite
+- Deployed using Vercel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **Routing:** React Router
+- **Deployment:** Vercel
+
+---
+
+## 📁 Project Structure
+
+src/
+├── components/
+│ ├── navigation.jsx
+│ └── footer.jsx
+├── pages/
+│ ├── Home.jsx
+│ └── resume.jsx
+├── assets/
+│ ├── images (.png)
+│ └── icons
+├── App.jsx
+├── main.jsx
+public/
+├── yogith_gowda_resume.pdf
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+```bash
+git clone https://github.com/YOGITH-D/my_portfolio.git
+cd my_portfolio
