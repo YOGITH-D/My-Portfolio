@@ -27,7 +27,7 @@ This website showcases my projects, skills, and resume, and serves as a central 
 ---
 
 ## 📁 Project Structure
-
+```
 src/
 ├── components/
 │ ├── navigation.jsx
@@ -42,7 +42,7 @@ src/
 ├── main.jsx
 public/
 ├── yogith_gowda_resume.pdf
-
+```
 ---
 
 ## ⚙️ Installation & Setup
